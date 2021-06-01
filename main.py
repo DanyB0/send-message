@@ -6,21 +6,20 @@ import colorama
 import pyautogui
 import requests
 
-"""
-This is the part with the API of Classeviva, but it doesn't work (the API)
-Here's the link to the API page --> https://classevivapi.docs.apiary.io/#reference
 
-import urllib.request
+# This is the part with the API of Classeviva, but it doesn't work (the API)
+# Here's the link to the API page --> https://classevivapi.docs.apiary.io/#reference
 
-values = {"username": "daniele.beltrami13@gmail.com", "password": "Daniele30112003!"}
+# import urllib.request
 
-headers = {
-  'Content-Type': 'application/json'
-}
-request = urllib.request.Request("https://api.morrillo.it/classeviva/v1/login", data=values, headers=headers)
-response_body = urllib.request.urlopen(request).read()
-print (response_body)
-"""
+# values = {"username": "daniele.beltrami13@gmail.com", "password": "Daniele30112003!"}
+
+# headers = {
+#   'Content-Type': 'application/json'
+# }
+# request = urllib.request.Request("https://api.morrillo.it/classeviva/v1/login", data=values, headers=headers)
+# response_body = urllib.request.urlopen(request).read()
+# print (response_body)
 
 
 # send the messsage to every number in ther dictionary
