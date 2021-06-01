@@ -1,5 +1,6 @@
-# send-message
+# send-message (I took inspiration from [this repo](https://github.com/Pooolg/neko-telegram-autopostbot))
 Send a message on whatsapp with a neko image to a list of contacts
+
 ## Setup
 * ### Install the requirements
   * #### `pip install -r requirements.txt`
