@@ -12,7 +12,7 @@ import requests
 
 # import urllib.request
 
-# values = {"username": "daniele.beltrami13@gmail.com", "password": "Daniele30112003!"}
+# values = {"username": "MY_EMAIL", "password": "MY_PASSWORD"}
 
 # headers = {
 #   'Content-Type': 'application/json'
