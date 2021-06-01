@@ -1,2 +1,2 @@
 # send-message
-Send a message on whatsapp everytime there's a new test
+Send a message on whatsapp with a neko image
