@@ -23,11 +23,11 @@ print (response_body)
 
 
 # send the messsage to every number in ther dictionary
-def send(names_list, name, message):
-    for name in len(names_list):
+def send(names_list, message):
+    for name in names_list:
         # open the precompiled message on the browser and send it to every
         # number in the dictionary
-        webbrowser.open(f"https://wa.me/{numbers[name]}?link={message}")
+        webbrowser.open(f"https://wa.me/{numbers[name]}?text={message}")
         print(f"messaggio inviato a {name}")
         # wait 7 seconds
         time.sleep(7)
@@ -36,7 +36,7 @@ def send(names_list, name, message):
 
 
 # load the file json with the numbers
-numbers_file = open("list.json", "r").read()
+numbers_file = open("contacts.json", "r").read()
 numbers = json.loads(numbers_file)
 
 # names in the dictionary
