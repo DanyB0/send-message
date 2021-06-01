@@ -2,6 +2,7 @@ import json
 import time
 import webbrowser
 
+import colorama
 import pyautogui
 import requests
 
@@ -28,7 +29,12 @@ def send(names_list, message):
         # open the precompiled message on the browser and send it to every
         # number in the dictionary
         webbrowser.open(f"https://wa.me/{numbers[name]}?text={message}")
-        print(f"messaggio inviato a {name}")
+        print(
+            colorama.Fore.GREEN
+            + "[V] "
+            + colorama.Fore.WHITE
+            + f"messaggio inviato a {name}"
+        )
         # wait 7 seconds
         time.sleep(7)
         # press the enter key to send the message
