@@ -32,7 +32,7 @@ def send(names_list, message):
             colorama.Fore.GREEN
             + "[V] "
             + colorama.Fore.WHITE
-            + f"messaggio inviato a {name}"
+            + f"message sent to {name}"
         )
         # wait 7 seconds
         time.sleep(7)
@@ -51,7 +51,7 @@ names_list = numbers.keys()
 url_neko_pic = requests.get("https://nekos.life/api/v2/img/neko").json()["url"]
 
 # write here the message that will be sent
-message = f"Ciao!%20Ecco una bella neko per te ;)%20{url_neko_pic}"
+message = f"Hi!%20Here's a neko for you <3%20{url_neko_pic}"
 
 # call the function
 send(names_list, message)
