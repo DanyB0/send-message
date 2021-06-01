@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/danyb0/whatsapp-neko-message/badge)](https://www.codefactor.io/repository/github/danyb0/whatsapp-neko-message)
 # send-message (I took inspiration from [this repo](https://github.com/Pooolg/neko-telegram-autopostbot))
 Send a message on whatsapp with a neko image to a list of contacts
 
