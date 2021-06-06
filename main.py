@@ -7,21 +7,6 @@ import pyautogui
 import requests
 
 
-# This is the part with the API of Classeviva, but it doesn't work (the API)
-# Here's the link to the API page --> https://classevivapi.docs.apiary.io/#reference
-
-# import urllib.request
-
-# values = {"username": "MY_EMAIL", "password": "MY_PASSWORD"}
-
-# headers = {
-#   'Content-Type': 'application/json'
-# }
-# request = urllib.request.Request("https://api.morrillo.it/classeviva/v1/login", data=values, headers=headers)
-# response_body = urllib.request.urlopen(request).read()
-# print (response_body)
-
-
 # send the messsage to every number in ther dictionary
 def send(names_list, message):
     for name in names_list:
